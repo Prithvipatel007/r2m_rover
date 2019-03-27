@@ -1,0 +1,8 @@
+prefix=/home/daisy/Desktop/R2M/r2m_ws/devel
+
+Name: curiosity_mars_rover_description
+Description: Description of curiosity_mars_rover_description
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/daisy/Desktop/R2M/r2m_ws/devel/lib 
+Requires: roscpp gazebo_ros
