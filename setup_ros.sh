@@ -22,7 +22,7 @@ confirm() {
 sudo apt-get update
 
 # main apps
-sudo apt-get install -y vim vim-nox ctags xournal meld rdesktop terminator geany
+sudo apt-get install -y vim vim-nox ctags xournal meld rdesktop terminator geany python3
 
 # system utilities
 sudo apt-get install -y screen sshfs autofs curl git subversion sqlite3
