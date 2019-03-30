@@ -21,4 +21,5 @@ Make sure that the file is executable. Normally, if you type ls -all in the term
 chmod +x setup_ros.sh
 ```
 
+
 Then, it will install the libraries and tools you need to work with ROS.
