@@ -7,7 +7,7 @@
 	<arg name="headless" default="false"/>
 	<arg name="debug" default="false"/>
 	<arg name="verbose" default="true" />
-    <arg name="world" default="$(find curiosity_mars_rover_description)/worlds/simple.world"/>
+    <arg name="world" default="$(find curiosity_mars_rover_description)/worlds/mars_rover.world"/>
 
 
 	<include file="$(find gazebo_ros)/launch/empty_world.launch">
