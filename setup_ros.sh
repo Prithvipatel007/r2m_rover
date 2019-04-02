@@ -118,5 +118,9 @@ deb-src http://security.ubuntu.com/ubuntu xenial-security main restricted" > \
   sudo apt-get install -y arduino
 fi
 
+#Gazebo_ROS control 
+
+sudo apt-get install ros-kinetic-ros-control ros-kinetic-ros-controllers
+
 # done message
 echo -e "\nDone running setup!"
