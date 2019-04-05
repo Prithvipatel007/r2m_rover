@@ -31,12 +31,6 @@ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
 You will see the instruction on the terminal.
 
-
-If the environment is too dark in gazebo, unable the shadows property.(World/Scene/shadows)
-
-This package is responsible for the teleoperation of the Rover using Joystick. According to the Joy messages that we are getting, we manuipulate these data to publish the Twist messages.
-
-
 ### Arm/Mast control 
 As you can see in the rover chasis, there is an arm as manipulator and a mast with camera.
 
@@ -57,6 +51,9 @@ To release the arm
 rosservice call /curiosity_mars_rover/arm_service "model_name: 'close'" 
 ```
 
+If the environment is too dark in gazebo, unable the shadows property.(World/Scene/shadows)
+
+This package is responsible for the teleoperation of the Rover using Joystick. According to the Joy messages that we are getting, we manuipulate these data to publish the Twist messages.
 
 ## Setup_Ros script
 This is the script to install all the basic requirement to access ROS framework. It would he helpful and less time consumption for the installation of the ROS into RPI or any other PC or Laptop.
