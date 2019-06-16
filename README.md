@@ -31,6 +31,25 @@ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
 You will see the instruction on the terminal.
 
+### Arm/Mast control 
+As you can see in the rover chasis, there is an arm as manipulator and a mast with camera.
+
+To lift the mast
+```bash
+rosservice call /curiosity_mars_rover/mast_service "model_name: 'open'" 
+```
+To release the mast
+```bash
+rosservice call /curiosity_mars_rover/mast_service "model_name: 'close'" 
+```
+To lift the arm
+```bash
+rosservice call /curiosity_mars_rover/arm_service "model_name: 'open'" 
+```
+To release the arm
+```bash
+rosservice call /curiosity_mars_rover/arm_service "model_name: 'close'" 
+```
 
 If the environment is too dark in gazebo, unable the shadows property.(World/Scene/shadows)
 
