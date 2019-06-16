@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/iki/r2m_ncs/devel -DCMAKE_INSTALL_PREFIX=/home/iki/r2m_ncs/install -G Unix Makefiles
