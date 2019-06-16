@@ -1,5 +1,5 @@
 <launch>
-	<arg name="dev" default="/dev/input/js0"/>
+	<arg name="dev" default="/dev/input/js1"/>
 	<node pkg="r2m_teleoperation" type="r2m_teleoperation.py" name="r2m_teleoperation" output="screen"/>
 	<node pkg="joy" type="joy_node" name="joy_node" clear_params="true">
 		<param name="dev" value="$(arg dev)" />
