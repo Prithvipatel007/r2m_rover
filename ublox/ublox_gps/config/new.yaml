@@ -23,7 +23,7 @@ dr_limit: 1
 
 uart1:
   baudrate: 115200           # C94-M8P specific
-  in: 16                    # RTCM 3
+  in: 16                     # RTCM 3
   out: 16                    # No UART out for rover
 
 gnss:
