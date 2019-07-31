@@ -2,7 +2,7 @@
 
 <launch>
   <arg name="node_name" default="gpsnode"/>
-  <arg name="param_file_name" doc="param file name" default="new" />
+  <arg name="param_file_name" default="new" />
   <arg name="output" default="screen" />
   <arg name="respawn" default="true" />
   <arg name="respawn_delay" default="30" />
